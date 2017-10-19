@@ -19,6 +19,7 @@ ENV PROCESS_SERVER_WAR kie-server-${project.version}
 
 # ENV TASK_INBOX_URL http://$BC_HOST:$BC_PORT/business-central
 # ENV MAIL_FROM noreply@bpm.grid
+# ENV PROCESS_IMAGE_SERVER_URL http://$PROCESS_SERVER_HOST:$PROCESS_SERVER_PORT/kie-server
 
 ENV KEYCLOAK_VERSION ${version.org.keycloak}
 
